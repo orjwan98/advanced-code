@@ -24,15 +24,15 @@ var numbers = [34, 56, 12, 88, 10];
 
 //-------------------------------------------------
 
-//challenge2: using array.map and a function that takes a string as an argument return a new array of objects where each string is the value of a name property.
+//challenge2: using array.map and a function that takes a string as an argument return a new array of objects where each string is capitalized and is the value of a name property.
 
 var names = ['Ahmad', 'Nour', 'Amira', 'Omar'];
 
-// should return [{name:'Ahmad'}, {name:'Nour'}, {name:'Amira'}, {name:'Omar'}]
+// should return [{name:'AHMAD'}, {name:'NOUR'}, {name:'AMIRA'}, {name:'OMAR'}]
 
 //-------------------------------------------------
 
-//challenge3: using array.filter() and a function that takes an object as an argument, return a new array with the objects where the langauge is Arabic or English.
+//challenge3: using array.filter() and a function that takes an object as an argument, return a new array with the objects where the language is either Arabic or English.
 
 var countries = [
   { country: 'Palestine', language: 'Arabic' },
