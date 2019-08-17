@@ -5,6 +5,11 @@
 var double = {};
 var numbers = [1, 2, 3, 4];
 
+numbers.forEach(function(number) {
+  double[number] = number * 2;
+});
+
+console.log(double);
 //should return
 
 // {
@@ -18,6 +23,11 @@ var numbers = [1, 2, 3, 4];
 var total = 0;
 var numbers = [34, 56, 12, 88, 10];
 
+numbers.forEach(function(number) {
+  total += number;
+});
+
+console.log(total);
 //should return total = 200
 
 //
@@ -27,6 +37,16 @@ var numbers = [34, 56, 12, 88, 10];
 //challenge2: using array.map and a function that takes a string as an argument return a new array of objects where each string is capitalized and is the value of a name property.
 
 var names = ['Ahmad', 'Nour', 'Amira', 'Omar'];
+
+var namesCapitalized = names.map(function(name) {
+  var nameObj = {
+    name: name.toUpperCase()
+  };
+
+  return nameObj;
+});
+
+console.log(namesCapitalized);
 
 // should return [{name:'AHMAD'}, {name:'NOUR'}, {name:'AMIRA'}, {name:'OMAR'}]
 
@@ -42,6 +62,12 @@ var countries = [
   { country: 'Turkey', language: 'Turkish' }
 ];
 
+var arabicOrEng = countries.filter(function(country) {
+  return country.language == 'Arabic' || country.language == 'English';
+});
+
+console.log(arabicOrEng);
+
 //should return
 
 //[{country: 'Palestine', language: 'Arabic'}, {country: 'USA', language: 'English'}]
@@ -53,10 +79,17 @@ var countries = [
 var dogs = [
   { name: 'crackers', breed: 'bulldog' },
   { name: 'trixie', breed: 'poodle' },
-  { name: 'rex', age: 'german shepherd' },
-  { name: 'shadow', age: 'husky' },
-  { name: 'cherry', age: 'golden retriever' }
+  { name: 'rex', breed: 'german shepherd' },
+  { name: 'shadow', breed: 'husky' },
+  { name: 'cherry', breed: 'golden retriever' }
 ];
+
+var newDogs = dogs.reduce(function(acc, dogObj) {
+  acc[dogObj.name] = dogObj.breed;
+  return acc;
+}, {});
+
+console.log(newDogs);
 
 //should return
 // {
@@ -79,6 +112,17 @@ var people = {
   martha: 'knitting'
 };
 
+var peopleKey = Object.keys(people);
+
+var peopleArr = peopleKey.map(function(person) {
+  return {
+    name: person,
+    hobbie: people[person]
+  };
+});
+
+console.log(peopleArr);
+
 //should return
 
 //[{name: 'amelie', hobbie: 'drawing}, {name: 'jackson', hobbie: 'cooking}, {name: 'sarah', hobbie:'reading & writing'}, {name:'mike', hobbie:'listening to music'}, {name: 'martha', hobbie:'knitting'}]
@@ -94,10 +138,12 @@ var namesArr = ['Sammi', 'Arwa', 'Maraam', 'Mahmoud'];
 
 function concatArrs(arr1, arr2) {
   //write your code here
+  var bigArr = [...arr1, ...arr2];
 
   return bigArr;
 }
 
+console.log(concatArrs(numArr, namesArr));
 //should return
 
 // bigArr = [1, 2, 3, 'Sammi', 'Arwa', 'Maraam', 'Mahmoud']
@@ -110,9 +156,12 @@ var fruits = ['Apple', 'Orange', 'Kiwi', 'Lemon'];
 
 function newArrays(word, arr) {
   //write your code here
+  var newArr = [...arr, word];
 
   return newArr;
 }
+
+console.log(newArrays('banana', fruits));
 
 //should return
 
@@ -135,10 +184,14 @@ var employee = {
 
 function concatObjs(obj1, obj2) {
   //write your code here
-
+  var bigObj = {
+    ...obj1,
+    ...obj2
+  };
   return bigObj;
 }
 
+console.log(concatObjs(employee, company));
 //should return
 
 //bigObj = {
@@ -160,12 +213,16 @@ var laptop = {
   hdd: '500GB'
 };
 
-function returnNewObj() {
+function returnNewObj(obj, prop) {
   //write your code here
-
+  var newObj = {
+    ...obj,
+    cpu: prop
+  };
   return newObj;
 }
 
+console.log(returnNewObj(laptop, 'i5 intel core'));
 //should return
 
 //newObj = {
