@@ -88,9 +88,9 @@ Remember when we said that `fetch` is a unique kind of function? That's because 
 
 A promise based function is a function that helps us make operations that would take a little longer than usual to execute **without blocking other operations**. Like making requests to a remote server and waiting for a response. Promise based functions operate in the background, and return a **promise object**, which has methods that allows us to process the response in a suitable way.
 
-### [Making a request to another server with fetch in react - lecture. (1 hour)]()
+### [Making a request to another server with fetch in react - lecture. (1 hour)](https://github.com/collective2019/advanced-code/tree/master/DAY2/makeup-search)
 
-### [Making a request to another server with fetch in react - project. (1 hour)]()
+### Making a request to another server with fetch in react - project. (1 hour)
 
 **Instructions**:
 
@@ -117,4 +117,4 @@ We're going to build a search engine where we can look up Rick&Morty cartoon cha
 
 [rickandmortyapi](https://rickandmortyapi.com/documentation/) is going to be the site we make requests to. It has some simple documentation to show you how you can customize your requests.
 
-### React project review (1 hour)
+### [React project review (1 hour)](https://github.com/collective2019/advanced-code/tree/master/DAY2/character-search)
