@@ -99,21 +99,22 @@ A promise based function is a function that helps us make operations that would 
 - In your terminal, run the following commands:
 
 1. `npm install -g create-react-app`
-2. `create-react-app makeup-search`
+2. `create-react-app character-search`
 
 - cd into your react's project.
 
 **The project**
 
-We're going to build a search engine where we can look for makeup products based on what the user enters.
+We're going to build a search engine where we can look up Rick&Morty cartoon characters based on their species (human, humanoid, alien) and gender (male, female, genderless, unknown).
 
 > How the site should look/work?
 
-- There are two text boxes, one where the user can enter the `product_type` and another where we can enter the `brand`.
-- There has to be a submit button, when clicked, makes a request to the makeup site and gets back data based on what the user enters.
+- There are two text boxes, one where the user can enter the `species` of the character and another where we can enter the `gender`.
+- There has to be a submit button, when clicked, makes a request to the Rick&Morty site and gets back data based on what the user enters.
+- Display each character in a card-like component that includes their: name, gender, status, species type, location and image.
 
-> Where should I get the data from?
+  > Where should I get the data from?
 
-[Makeup](http://makeup-api.herokuapp.com) is going to be the site we make requests to. It also has some simple documentation to show you how you can customize your requests.
+[rickandmortyapi](https://rickandmortyapi.com/documentation/) is going to be the site we make requests to. It has some simple documentation to show you how you can customize your requests.
 
 ### React project review (1 hour)
