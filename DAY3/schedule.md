@@ -2,7 +2,7 @@
 
 ### Project 1 - Make a photo gallery with React. (1 hour)
 
-Instructions:
+**Instructions:**
 
 - `cd` into your local repository, and create a folder and call it DAY3 and `cd` into it. 
 - Now type: `create-react-app gallery`
