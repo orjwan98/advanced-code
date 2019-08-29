@@ -1,10 +1,10 @@
 import React from 'react'; 
 
 
-function Photo() {
+function Photo(props) {
     return (
         <div>
-            <img src=""/>
+            <img src={props.image}/>
         </div>
     )
 }
