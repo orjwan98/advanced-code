@@ -21,7 +21,9 @@ class Form extends React.Component {
                 <label htmlFor="image-input">
                     <input type="text" id="image-input" onChange={this.handleInput}/>
                 </label>
-                <button type="button">ADD</button>
+                <button type="button" onClick={function () {
+                    this.props.handleClick(this.state.imageInput)
+                }.bind(this)}>ADD</button>
             </div>
         )
     }
