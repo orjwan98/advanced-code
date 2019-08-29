@@ -4,29 +4,30 @@
 
 **Instructions:**
 
-- `cd` into your local repository, and create a folder and call it DAY3 and `cd` into it. 
+- `cd` into your local repository, and create a folder and call it DAY3 and `cd` into it.
 - Now type: `create-react-app gallery`
-- After your react app has finished installing, go to `App.js` and clean up all the unnecessary code. 
+- After your react app has finished installing, go to `App.js` and clean up all the unnecessary code.
 
-We're going to make a photo gallery using React. The user should be able to enter an image's link and submit it. Each time a user submits a photo, it should be added to the previous added images. 
+We're going to make a photo gallery using React. The user should be able to enter an image's link and submit it. Each time a user submits a photo, it should be added to the previous added images.
 
- The gallery should look like this in react:
+The gallery should look like this in react:
 
- ![](gallery-react.png)
+![](gallery-react.png)
 
- - The `Form` component:
-       - Should have the text box (with a label) and submit button.
-       - Has a private state of its own to store the link of the image.
-       - HINT: pass the state's data from `Form` component to `App` component using the button's `handleClick` function. 
-       
- - The `Gallery` component:
-      - Is where we will have each `Photo` component added for each new image. 
-      - HINT: use map to return a `<Photo/>` component for each new image the user adds. 
+- The `Form` component: -
+  1. Should have the text box (with a label) and submit button.
+  2. Has a private state of its own to store the link of the image.
+  - HINT: pass the state's data from `Form` component to `App` component using the button's `handleClick` function.
+- The `Gallery` component:
 
- - The `Photo` component:
-     - It should return an `<img/>` element. 
-     - The `<img/>` element should have an `src` attribute. 
-     - The `src` attribute value should be the link of the image.
+  1. Is where we will have each `Photo` component added for each new image.
+
+  - HINT: use map to return a `<Photo/>` component for each new image the user adds.
+
+- The `Photo` component:
+  - It should return an `<img/>` element.
+  - The `<img/>` element should have an `src` attribute.
+  - The `src` attribute value should be the link of the image.
 
 HINT: Arrays in state aren't changed directly. You should use the **rest operator** to change Arrays state.
 
@@ -57,11 +58,10 @@ We're going to build a search engine where we can look up Rick&Morty cartoon cha
 
   > How the project should look like in React?
 
-   ![](rickandmorty-react.png)
+  ![](rickandmorty-react.png)
 
+> Where should I get the data from?
 
-  > Where should I get the data from?
-
-[rickandmortyapi](https://rickandmortyapi.com/documentation/) is going to be the site we make requests to. It has some simple documentation to show you how you can customize your requests.
+<a href="https://rickandmortyapi.com/documentation/" target="_blank">rickandmortyapi</a> is going to be the site we make requests to. It has some simple documentation to show you how you can customize your requests.
 
 ### Project 2 - Make a search engine for Rick & Morty's Characters (Review). (1 hour)
