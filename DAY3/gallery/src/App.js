@@ -7,6 +7,8 @@ import Gallery from './components/Gallery'
 function App() {
   return (
     <div className="App">
+      <h1>Photo Gallery</h1>
+      <h2>Add your favorite images!</h2>
       <Form />
       <Gallery/>
     </div>
