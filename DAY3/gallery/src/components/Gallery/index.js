@@ -2,9 +2,14 @@ import React from 'react';
 import Photo from '../Photo';
 
 
-function Gallery() {
+function Gallery(props) {
+    var images = props.images.map(function (image) {
+        return <Photo image={image}/>
+    })
     return (
-        <Photo />
+        <div>
+            {images}
+       </div>
     )
 }
 
