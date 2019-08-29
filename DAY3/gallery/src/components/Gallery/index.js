@@ -7,3 +7,5 @@ function Gallery() {
         <Photo />
     )
 }
+
+export default Gallery;
