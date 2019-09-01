@@ -1,6 +1,6 @@
 console.log('Hello fetch');
 
-//Write a function that takes the name of a character as an argument, and uses fetch to make a request to the rick and morty characters API (), and returns:
+//Write a function that takes the name of a character as an argument, and uses fetch to make a request to the rick and morty characters API, and returns:
 
 //1. All characters.
 //Hint: you can't see the data inside the response unless you parse the response.
@@ -9,4 +9,4 @@ console.log('Hello fetch');
 
 //3. Only characters that are called 'morty'.
 
-//Refer to the rick and morty documentation to learn how to filter your requests results: ()
+//Refer to the rick and morty documentation to learn how to filter your requests results: (https://rickandmortyapi.com/documentation/)
