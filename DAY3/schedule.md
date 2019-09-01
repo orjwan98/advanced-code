@@ -2,7 +2,7 @@
 
 ### API requests review. (1 hour)
 
-### Make an API request using fetch - project. (1 hour)
+### [Make an API request using fetch - project. (1 hour)](https://github.com/orjwan98/advanced-code/tree/master/DAY3/using-fetch-project)
 
 ### Make an API request using fetch - review. (30 mins)
 
