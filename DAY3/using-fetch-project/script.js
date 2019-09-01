@@ -9,4 +9,4 @@ console.log('Hello fetch');
 
 //3. Only characters that are called 'morty'.
 
-//Refer to the rick and morty documentation to learn how to filter your requests results: (https://rickandmortyapi.com/documentation/)
+//Refer to the rick and morty documentation to learn how about the available endpoints and how to filter your requests results: (https://rickandmortyapi.com/documentation/)
