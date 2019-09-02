@@ -6,7 +6,7 @@
 
 ### Make an API request using fetch - review. (30 mins)
 
-### Project 1 - Make a photo gallery with React (lecture). (1 hour)
+### [Project 1 - Make a photo gallery with React (lecture). (1 hour)](https://github.com/collective2019/advanced-code/tree/master/DAY3/gallery)
 
 **Instructions:**
 
