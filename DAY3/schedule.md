@@ -4,9 +4,9 @@
 
 ### [Make an API request using fetch - project. (1 hour)](https://github.com/orjwan98/advanced-code/tree/master/DAY3/using-fetch-project)
 
-### Make an API request using fetch - review. (30 mins)
+### [Make an API request using fetch - review. (30 mins)](https://github.com/collective2019/advanced-code/tree/master/DAY3/using-fetch-project)
 
-### Project 1 - Make a photo gallery with React (lecture). (1 hour)
+### [Project 1 - Make a photo gallery with React (lecture). (1 hour)](https://github.com/collective2019/advanced-code/tree/master/DAY3/gallery)
 
 **Instructions:**
 
