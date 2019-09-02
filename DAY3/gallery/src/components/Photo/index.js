@@ -1,12 +1,9 @@
 import React from 'react'; 
 
-
-function Photo(props) {
+var Form = (props) => {
     return (
-        <div>
-            <img src={props.image}/>
-        </div>
+        <img src={props.imageLink}/>
     )
 }
 
-export default Photo;
+export default Form;

@@ -1,29 +1,27 @@
-import React from 'react';
+import React from 'react'; 
+
 
 class Form extends React.Component {
 
-    constructor() {
-        super();
-        this.state = {
-            imageInput: ''
-        }
-
-        this.handleInput = this.handleInput.bind(this)
+    state = {
+        imageInput:''
     }
 
-    handleInput(event) {
+    handleChange = event => {
         this.setState({ imageInput: event.target.value })
+    }
+
+    handleFormClick = () => {
+        this.props.handleClick(this.state.imageInput)
     }
 
     render() {
         return (
             <div>
                 <label htmlFor="image-input">
-                    <input type="text" id="image-input" onChange={this.handleInput}/>
+                    <input type="text" id="image-input" onChange={this.handleChange}/>
                 </label>
-                <button type="button" onClick={function () {
-                    this.props.handleClick(this.state.imageInput)
-                }.bind(this)}>ADD</button>
+                <button type="button" onClick={this.handleFormClick}>Add</button>
             </div>
         )
     }

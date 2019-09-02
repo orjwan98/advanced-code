@@ -1,15 +1,18 @@
 import React from 'react'; 
 import Photo from '../Photo';
 
+var Gallery = (props) => {
 
-function Gallery(props) {
-    var images = props.images.map(function (image) {
-        return <Photo image={image}/>
+    
+    var photosArray = props.imagesArr.map((image) => {
+        return <Photo imageLink={image}/>
     })
+
+    console.log(photosArray)
     return (
         <div>
-            {images}
-       </div>
+            {photosArray}
+        </div>
     )
 }
 
