@@ -8,7 +8,7 @@
 - Open `index.html` in your browser and open the console.
 - Follow the instruction in `arrow-functions.js`.
 
-### Project 2 - Make a search engine for Rick & Morty's Characters. (1 hour, 30 minutes)
+### Project 2 - Make a search engine for Rick & Morty's Characters. (1 Project 1 - Use ES6 arrow functions. (30 mins)hour, 30 mins)
 
 **Instructions**:
 
@@ -41,4 +41,4 @@ We're going to build a search engine where we can look up Rick&Morty cartoon cha
 
 <a href="https://rickandmortyapi.com/documentation/" target="_blank">rickandmortyapi</a> is going to be the site we make requests to. It has some simple documentation to show you how you can customize your requests.
 
-### Project 2 - Make a search engine for Rick & Morty's Characters (Review). (1, 30 minutes hour)
+### Project 2 - Make a search engine for Rick & Morty's Characters (Review). (1 hour, 30 mins)
