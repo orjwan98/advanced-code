@@ -10,7 +10,7 @@
 
 ### [Project 1 - Use ES6 arrow functions. (review 30 mins)]
 
-### Project 2 - Make a search engine for Rick & Morty's Characters. (1 Project 1 - Use ES6 arrow functions. (30 mins)hour, 30 mins)
+### Project 2 - Make a search engine for Rick & Morty's Characters. (1 hour, 30 mins)
 
 **Instructions**:
 
