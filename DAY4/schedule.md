@@ -1,6 +1,6 @@
 # Schedule for DAY4 - 7th of September 2019
 
-### Project 1 - Use ES6 arrow functions. (30 mins)
+### [Project 1 - Use ES6 arrow functions. (30 mins)](https://github.com/orjwan98/advanced-code/tree/day4/content/DAY4/ES6-arrow-functions)
 
 **Instructions**:
 
