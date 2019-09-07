@@ -7,3 +7,5 @@
 ### [DAY 2 - 24th of August 2019](https://github.com/collective2019/advanced-code/blob/master/DAY2/schedule.md)
 
 ### [DAY 3 - 1st of September 2019](https://github.com/collective2019/advanced-code/blob/master/DAY3/schedule.md)
+
+### [DAY 4 - 7th of September 2019](https://github.com/collective2019/advanced-code/blob/master/DAY4/schedule.md)
