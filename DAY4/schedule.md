@@ -8,7 +8,7 @@
 - Open `index.html` in your browser and open the console.
 - Follow the instruction in `arrow-functions.js`.
 
-### [Project 1 - Use ES6 arrow functions. (review 30 mins)]
+### Project 1 - Use ES6 arrow functions (Review). (30 mins)
 
 ### Project 2 - Make a search engine for Rick & Morty's Characters. (1 hour, 30 mins)
 
